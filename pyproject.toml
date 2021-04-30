@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "student-cup-2021-spring"
+version = "0.1.0"
+description = ""
+authors = ["Mamoru Matsunaga <mamoru74521103@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.2"
+pandas = "^1.2.4"
+jupyterlab = "^3.0.14"
+signate = "^0.9.7"
+matplotlib = "^3.4.1"
+sklearn = "^0.0"
+lightgbm = "^3.2.1"
+seaborn = "^0.11.1"
+optuna = "^2.7.0"
+category-encoders = "^2.2.2"
+xgboost = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^5.5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
