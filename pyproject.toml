@@ -16,6 +16,7 @@ optuna = "^2.7.0"
 matplotlib = "^3.4.1"
 seaborn = "^0.11.1"
 category-encoders = "^2.2.2"
+signate = "^0.9.7"
 
 [tool.poetry.dev-dependencies]
 
